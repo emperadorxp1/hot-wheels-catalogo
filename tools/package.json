@@ -1,0 +1,12 @@
+{
+  "name": "hotwheels-catalogo-tools",
+  "private": true,
+  "type": "module",
+  "description": "Herramientas locales: optimiza las fotos del catalogo y genera cars.json. No forma parte del sitio publicado.",
+  "scripts": {
+    "build": "node optimize-images.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.2"
+  }
+}

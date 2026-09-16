@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo Hot Wheels — S/ 17 c/u</title>
+  <meta name="description" content="Catálogo de Hot Wheels disponibles. S/ 17 cada uno, pocas unidades. Separa el tuyo por WhatsApp y recógelo en Solari Plaza 1079.">
+  <meta name="theme-color" content="#111318">
+  <meta property="og:title" content="Catálogo Hot Wheels — S/ 17 c/u">
+  <meta property="og:description" content="Pocas unidades. Separa el tuyo por WhatsApp. Solari Plaza 1079.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏎️</text></svg>">
+  <link rel="preload" href="cars.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="contenedor">
+      <p class="kicker">Stock disponible</p>
+      <h1>Catálogo <span>Hot Wheels</span></h1>
+      <p class="bajada">Casi todos a <strong>S/ 17</strong> cada uno. Elige los que quieras y sepáralos por WhatsApp.</p>
+      <ul class="datos">
+        <li class="chip chip--alerta">Pocas unidades</li>
+        <li class="chip">📍 Solari Plaza 1079</li>
+        <li class="chip" id="chip-total-modelos">Cargando…</li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="barra-busqueda">
+    <div class="contenedor">
+      <label class="buscador">
+        <span class="lupa" aria-hidden="true">🔍</span>
+        <input type="search" id="buscador" placeholder="Busca tu modelo (ej. Porsche, Supra)" autocomplete="off" aria-label="Buscar modelo">
+      </label>
+    </div>
+  </div>
+
+  <main class="contenedor">
+    <p id="estado" class="estado">Cargando catálogo…</p>
+    <ul id="grilla" class="grilla" hidden></ul>
+    <p id="sin-resultados" class="estado" hidden>No encontramos ese modelo. Prueba con otro nombre.</p>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p><strong>Recojo en Solari Plaza 1079.</strong></p>
+      <p>S/ 17 por carrito, salvo los modelos que muestren otro precio en su tarjeta. Stock limitado: se separa por orden de llegada del mensaje.</p>
+      <p class="pie__nota">Hot Wheels® es una marca registrada de Mattel. Este catálogo solo muestra productos disponibles para la venta.</p>
+    </div>
+  </footer>
+
+  <div class="barra-seleccion" id="barra" hidden>
+    <div class="contenedor barra-seleccion__inner">
+      <div class="resumen">
+        <strong id="resumen-cantidad">0 seleccionados</strong>
+        <span id="resumen-total">Total S/ 0</span>
+      </div>
+      <div class="acciones">
+        <button type="button" id="limpiar" class="btn btn--fantasma">Limpiar</button>
+        <a id="btn-whatsapp" class="btn btn--wsp" href="#" target="_blank" rel="noopener">Separar por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="visor" id="visor" hidden>
+    <button type="button" class="visor__cerrar" id="visor-cerrar" aria-label="Cerrar">✕</button>
+    <figure class="visor__figura">
+      <img id="visor-img" src="" alt="">
+      <figcaption id="visor-nombre"></figcaption>
+    </figure>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
