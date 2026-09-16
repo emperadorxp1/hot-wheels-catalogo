@@ -192,6 +192,20 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
 }
 
+.etiqueta-version {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--amarillo);
+  color: #111318;
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+
 .etiqueta-stock {
   position: absolute;
   top: 8px;

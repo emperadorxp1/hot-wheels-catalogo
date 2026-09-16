@@ -310,5 +310,171 @@
     "qty": 1,
     "price": 17,
     "img": "img/time-attaxi.webp"
+  },
+  {
+    "id": "lotus-esprit-s1",
+    "name": "Lotus Esprit S1",
+    "serie": "Pop Culture · 007",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/lotus-esprit-s1.webp"
+  },
+  {
+    "id": "aston-martin-vanquish",
+    "name": "Aston Martin Vanquish",
+    "serie": "Pop Culture · 007",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/aston-martin-vanquish.webp"
+  },
+  {
+    "id": "kitt",
+    "name": "K.I.T.T.",
+    "serie": "Pop Culture · Knight Rider",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/kitt.webp"
+  },
+  {
+    "id": "1968-mazda-cosmo-sport",
+    "name": "1968 Mazda Cosmo Sport",
+    "serie": "Pop Culture · Jay Leno's Garage",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/1968-mazda-cosmo-sport.webp"
+  },
+  {
+    "id": "kool-kombi",
+    "name": "Kool Kombi",
+    "serie": "Pop Culture · Mattel 80",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/kool-kombi.webp"
+  },
+  {
+    "id": "ghost-rider-charger",
+    "name": "Ghost Rider Charger",
+    "serie": "Pop Culture · Marvel",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/ghost-rider-charger.webp"
+  },
+  {
+    "id": "plumber-van",
+    "name": "Plumber Van",
+    "serie": "Pop Culture · Super Mario Bros.",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/plumber-van.webp"
+  },
+  {
+    "id": "hiway-hauler-beatles",
+    "name": "Hiway Hauler",
+    "serie": "Pop Culture · The Beatles",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/hiway-hauler-beatles.webp"
+  },
+  {
+    "id": "1970-chevelle-ss",
+    "name": "1970 Chevelle SS",
+    "serie": "Fast & Furious",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/1970-chevelle-ss.webp"
+  },
+  {
+    "id": "2003-dodge-viper-srt10",
+    "name": "2003 Dodge Viper SRT10",
+    "serie": "Fast & Furious",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/2003-dodge-viper-srt10.webp"
+  },
+  {
+    "id": "land-rover-defender-110",
+    "name": "Land Rover Defender 110",
+    "serie": "Fast & Furious",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/land-rover-defender-110.webp"
+  },
+  {
+    "id": "mclaren-senna",
+    "name": "McLaren Senna",
+    "serie": "Fast & Furious",
+    "version": "Premium",
+    "qty": 1,
+    "price": 40,
+    "img": "img/mclaren-senna.webp"
+  },
+  {
+    "id": "optimus-prime",
+    "name": "Optimus Prime",
+    "serie": "Transformers",
+    "version": "Track Fleet",
+    "qty": 1,
+    "price": 50,
+    "img": "img/optimus-prime.webp"
+  },
+  {
+    "id": "1941-willys",
+    "name": "1941 Willys",
+    "serie": "Salt Flat Racers",
+    "version": "Silver Series",
+    "qty": 1,
+    "price": 20,
+    "img": "img/1941-willys.webp"
+  },
+  {
+    "id": "volkswagen-baja-bug",
+    "name": "Volkswagen \"Baja Bug\"",
+    "serie": "57 Aniversario",
+    "qty": 3,
+    "price": 20,
+    "img": "img/volkswagen-baja-bug.webp"
+  },
+  {
+    "id": "d-muscle",
+    "name": "D-Muscle",
+    "serie": "57 Aniversario",
+    "qty": 2,
+    "price": 20,
+    "img": "img/d-muscle.webp"
+  },
+  {
+    "id": "73-jeep-j10",
+    "name": "'73 Jeep J10",
+    "serie": "57 Aniversario",
+    "qty": 1,
+    "price": 20,
+    "img": "img/73-jeep-j10.webp"
+  },
+  {
+    "id": "55-corvette",
+    "name": "'55 Corvette",
+    "serie": "57 Aniversario",
+    "qty": 2,
+    "price": 20,
+    "img": "img/55-corvette.webp"
+  },
+  {
+    "id": "muscle-and-blown",
+    "name": "Muscle and Blown",
+    "serie": "57 Aniversario",
+    "qty": 1,
+    "price": 20,
+    "img": "img/muscle-and-blown.webp"
   }
 ]

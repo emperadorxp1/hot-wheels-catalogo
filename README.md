@@ -13,9 +13,10 @@ y enviar la reserva por WhatsApp. Sin backend, sin build: Vercel la publica tal 
 index.html        la landing
 styles.css        estilos
 app.js            filtro, selección, total y link de WhatsApp
-cars.json         los 39 modelos (lo genera el script, no lo edites a mano salvo para corregir un nombre)
+cars.json         los 58 modelos (lo genera el script, no lo edites a mano salvo para corregir un nombre)
 img/              fotos optimizadas en WebP
 originales/       fotos JPEG originales (no se publican)
+originales_2/     segundo lote de fotos: Premium, Track Fleet y otras versiones (no se publican)
 tools/            script de optimización (no se publica)
 ```
 
@@ -44,6 +45,9 @@ const DIRECCION = 'Solari Plaza 1079';
    - `qty`: cuántas unidades tienes de ese modelo (si es 2 o más, la tarjeta muestra "2 disponibles").
    - `price`: opcional. Sin esta clave el modelo cuesta S/ 17; con `"price": 25` cuesta 25 y el total
      y el mensaje de WhatsApp lo suman correcto.
+   - `version`: opcional. "Premium", "Track Fleet", "Silver Series"… Se muestra como etiqueta amarilla en la
+     foto y también sirve para buscar (escribir "premium" filtra esos modelos). Precios de referencia:
+     Premium S/ 40, trailer (Track Fleet) S/ 50.
    - `rotate`: opcional, en grados (90, 180, 270) si la foto salió de lado.
 
 3. Regenera las imágenes y `cars.json`:

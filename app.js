@@ -103,6 +103,13 @@ function pintar (lista) {
       foto.append(etiqueta);
     }
 
+    if (carro.version) {
+      const version = document.createElement('span');
+      version.className = 'etiqueta-version';
+      version.textContent = carro.version;
+      foto.append(version);
+    }
+
     const cuerpo = document.createElement('div');
     cuerpo.className = 'tarjeta__cuerpo';
 
@@ -206,7 +213,7 @@ function normalizar (texto) {
 function filtrar () {
   const termino = normalizar(buscador.value.trim());
   const lista = termino
-    ? carros.filter((c) => normalizar(`${c.name} ${c.serie || ''}`).includes(termino))
+    ? carros.filter((c) => normalizar(`${c.name} ${c.serie || ''} ${c.version || ''}`).includes(termino))
     : carros;
 
   pintar(lista);
