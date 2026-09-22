@@ -15,6 +15,7 @@ const grilla = $('#grilla');
 const estado = $('#estado');
 const sinResultados = $('#sin-resultados');
 const buscador = $('#buscador');
+const orden = $('#orden');
 const barra = $('#barra');
 const resumenCantidad = $('#resumen-cantidad');
 const resumenTotal = $('#resumen-total');
@@ -64,7 +65,7 @@ async function cargar () {
   $('#chip-total-modelos').textContent = `${carros.length} modelos distintos`;
   estado.hidden = true;
   grilla.hidden = false;
-  pintar(carros);
+  filtrar();
   actualizarBarra();
 }
 
@@ -202,7 +203,11 @@ function filtrar () {
   const termino = normalizar(buscador.value.trim());
   const lista = termino
     ? carros.filter((c) => normalizar(`${c.name} ${c.serie || ''} ${c.version || ''}`).includes(termino))
-    : carros;
+    : [...carros];
+
+  // sort es estable: a igual precio se mantiene el orden del catálogo
+  if (orden.value === 'asc') lista.sort((a, b) => precioDe(a) - precioDe(b));
+  if (orden.value === 'desc') lista.sort((a, b) => precioDe(b) - precioDe(a));
 
   pintar(lista);
   grilla.hidden = lista.length === 0;
@@ -250,6 +255,7 @@ btnLimpiar.addEventListener('click', () => {
 });
 
 buscador.addEventListener('input', filtrar);
+orden.addEventListener('change', filtrar);
 
 $('#visor-cerrar').addEventListener('click', cerrarVisor);
 visor.addEventListener('click', (evento) => {
