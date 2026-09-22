@@ -243,7 +243,6 @@ img { max-width: 100%; display: block; }
   letter-spacing: .05em;
 }
 
-/* PRECIOS OCULTOS
 .tarjeta__precio {
   margin-top: auto;
   padding-top: 8px;
@@ -251,7 +250,6 @@ img { max-width: 100%; display: block; }
   font-weight: 800;
   color: var(--amarillo);
 }
-*/
 
 .tarjeta__btn {
   width: 100%;

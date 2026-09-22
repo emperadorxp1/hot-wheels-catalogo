@@ -1,14 +1,11 @@
 /* Catálogo Hot Wheels — landing para separar carritos por WhatsApp.
-   Para cambiar el número o la dirección, edita solo estas líneas. */
+   Para cambiar el número, el precio o la dirección, edita solo estas tres líneas. */
 const WHATSAPP = '51959808052';   // con código de país, sin + ni espacios
-// PRECIOS OCULTOS: se retiraron de la página. Para volver a mostrarlos, descomenta
-// los bloques marcados con "PRECIOS OCULTOS" (app.js, index.html y styles.css).
-// const PRECIO = 17;                // precio normal; un modelo puede traer su propio "price" en cars.json
+const PRECIO = 17;                // precio normal; un modelo puede traer su propio "price" en cars.json
 const DIRECCION = 'Solari Plaza 1079';
 
-// PRECIOS OCULTOS
-// const precioDe = (carro) => carro.price ?? PRECIO;
-// const soles = (monto) => `S/ ${monto}`;
+const precioDe = (carro) => carro.price ?? PRECIO;
+const soles = (monto) => `S/ ${monto}`;
 
 const CLAVE_GUARDADO = 'hw-seleccion';
 
@@ -20,8 +17,7 @@ const sinResultados = $('#sin-resultados');
 const buscador = $('#buscador');
 const barra = $('#barra');
 const resumenCantidad = $('#resumen-cantidad');
-// PRECIOS OCULTOS
-// const resumenTotal = $('#resumen-total');
+const resumenTotal = $('#resumen-total');
 const btnWhatsapp = $('#btn-whatsapp');
 const btnLimpiar = $('#limpiar');
 const visor = $('#visor');
@@ -117,10 +113,9 @@ function pintar (lista) {
     nombre.className = 'tarjeta__nombre';
     nombre.textContent = carro.name;
 
-    // PRECIOS OCULTOS
-    // const precio = document.createElement('p');
-    // precio.className = 'tarjeta__precio';
-    // precio.textContent = soles(precioDe(carro));
+    const precio = document.createElement('p');
+    precio.className = 'tarjeta__precio';
+    precio.textContent = soles(precioDe(carro));
 
     cuerpo.append(nombre);
 
@@ -131,8 +126,7 @@ function pintar (lista) {
       cuerpo.append(serie);
     }
 
-    // PRECIOS OCULTOS
-    // cuerpo.append(precio);
+    cuerpo.append(precio);
 
     const boton = document.createElement('button');
     boton.type = 'button';
@@ -178,27 +172,21 @@ function actualizarBarra () {
 
   resumenCantidad.textContent =
     elegidos.length === 1 ? '1 carrito seleccionado' : `${elegidos.length} carritos seleccionados`;
-  // PRECIOS OCULTOS
-  // resumenTotal.textContent = `Total ${soles(total(elegidos))}`;
+  resumenTotal.textContent = `Total ${soles(total(elegidos))}`;
   btnWhatsapp.href = enlaceWhatsapp(elegidos);
 }
 
-// PRECIOS OCULTOS
-// function total (elegidos) {
-//   return elegidos.reduce((suma, carro) => suma + precioDe(carro), 0);
-// }
+function total (elegidos) {
+  return elegidos.reduce((suma, carro) => suma + precioDe(carro), 0);
+}
 
 function enlaceWhatsapp (elegidos) {
   const lineas = [
     '¡Hola! Quiero separar estos Hot Wheels:',
     '',
-    // PRECIOS OCULTOS
-    // ...elegidos.map((c) => `• ${c.name} — ${soles(precioDe(c))}`),
-    ...elegidos.map((c) => `• ${c.name}`),
+    ...elegidos.map((c) => `• ${c.name} — ${soles(precioDe(c))}`),
     '',
-    // PRECIOS OCULTOS
-    // `Total: ${soles(total(elegidos))} (${elegidos.length} ${elegidos.length === 1 ? 'carrito' : 'carritos'})`,
-    `${elegidos.length} ${elegidos.length === 1 ? 'carrito' : 'carritos'}`,
+    `Total: ${soles(total(elegidos))} (${elegidos.length} ${elegidos.length === 1 ? 'carrito' : 'carritos'})`,
     `Recojo en ${DIRECCION}.`
   ];
   return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(lineas.join('\n'))}`;
@@ -226,9 +214,7 @@ function filtrar () {
 function abrirVisor (carro) {
   visorImg.src = carro.img;
   visorImg.alt = `Hot Wheels ${carro.name} en su blíster`;
-  // PRECIOS OCULTOS
-  // visorNombre.textContent = `${carro.name} — ${soles(precioDe(carro))}`;
-  visorNombre.textContent = carro.name;
+  visorNombre.textContent = `${carro.name} — ${soles(precioDe(carro))}`;
   visor.hidden = false;
   document.body.style.overflow = 'hidden';
 }
