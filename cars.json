@@ -309,18 +309,20 @@
     "id": "ground-fx",
     "name": "Ground FX",
     "serie": "Salt Flat Racers",
-    "tipo": "Básico",
+    "version": "Silver Series",
+    "tipo": "Silver Series",
     "qty": 1,
-    "price": 7,
+    "price": 20,
     "img": "img/ground-fx.webp"
   },
   {
     "id": "1932-ford",
     "name": "1932 Ford",
     "serie": "Salt Flat Racers",
-    "tipo": "Básico",
+    "version": "Silver Series",
+    "tipo": "Silver Series",
     "qty": 1,
-    "price": 17,
+    "price": 20,
     "img": "img/1932-ford.webp"
   },
   {
