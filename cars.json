@@ -28,7 +28,7 @@
     "name": "Dessert Drifter",
     "serie": "Fast Foodie",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/dessert-drifter.webp"
   },
   {
@@ -36,7 +36,7 @@
     "name": "King Kuda",
     "serie": "HW Art Cars",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/king-kuda.webp"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Mo-Stash",
     "serie": "Experimotors",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/mo-stash.webp"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Small Bloc",
     "serie": "Tooned",
     "qty": 2,
-    "price": 17,
+    "price": 7,
     "img": "img/small-bloc.webp"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Speed Bump",
     "serie": "HW Art Cars",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/speed-bump.webp"
   },
   {
@@ -100,7 +100,7 @@
     "name": "HW Roll Cage",
     "serie": "HW Dirt",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/hw-roll-cage.webp"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Donut Drifter",
     "serie": "Fast Foodie",
     "qty": 2,
-    "price": 17,
+    "price": 7,
     "img": "img/donut-drifter.webp"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Hover Storm",
     "serie": "HW Dirt",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/hover-storm.webp"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Rink Racer",
     "serie": "HW Ride-Ons",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/rink-racer.webp"
   },
   {
@@ -204,7 +204,7 @@
     "name": "Mailed It!",
     "serie": "HW Art Cars",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/mailed-it.webp"
   },
   {
@@ -220,7 +220,7 @@
     "name": "Heavy Hitcher",
     "serie": "HW Metro",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/heavy-hitcher.webp"
   },
   {
@@ -276,7 +276,7 @@
     "name": "Ground FX",
     "serie": "Salt Flat Racers",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/ground-fx.webp"
   },
   {
@@ -292,7 +292,7 @@
     "name": "HW-4-Trac",
     "serie": "HW Race Day",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/hw-4-trac.webp"
   },
   {
@@ -308,7 +308,7 @@
     "name": "Time Attaxi",
     "serie": "Edición especial",
     "qty": 1,
-    "price": 17,
+    "price": 7,
     "img": "img/time-attaxi.webp"
   },
   {
