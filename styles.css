@@ -164,6 +164,36 @@ img { max-width: 100%; display: block; }
 
 .orden:focus { outline: none; border-color: var(--rojo); }
 
+.tipos {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-top: 8px;
+  scrollbar-width: none;
+}
+
+.tipos::-webkit-scrollbar { display: none; }
+
+.tipo {
+  flex: 0 0 auto;
+  background: var(--tarjeta);
+  color: var(--texto-suave);
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font: inherit;
+  font-size: .82rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tipo[aria-pressed="true"] {
+  background: var(--amarillo);
+  border-color: var(--amarillo);
+  color: #111318;
+  font-weight: 700;
+}
+
 /* ---------- Grilla ---------- */
 
 .estado {

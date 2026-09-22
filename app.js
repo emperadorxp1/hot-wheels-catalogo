@@ -16,6 +16,11 @@ const estado = $('#estado');
 const sinResultados = $('#sin-resultados');
 const buscador = $('#buscador');
 const orden = $('#orden');
+const tipos = $('#tipos');
+
+// Orden de los botones de tipo; un tipo nuevo en cars.json aparece al final
+const ORDEN_TIPOS = ['Básico', 'Premium', 'Silver Series', '57 Aniversario', 'Track Fleet', 'Moto'];
+let tipoActivo = '';
 const barra = $('#barra');
 const resumenCantidad = $('#resumen-cantidad');
 const resumenTotal = $('#resumen-total');
@@ -62,6 +67,7 @@ async function cargar () {
   const ids = new Set(carros.map((c) => c.id));
   [...seleccion].forEach((id) => { if (!ids.has(id)) seleccion.delete(id); });
 
+  pintarTipos();
   $('#chip-total-modelos').textContent = `${carros.length} modelos distintos`;
   estado.hidden = true;
   grilla.hidden = false;
@@ -201,9 +207,10 @@ function normalizar (texto) {
 
 function filtrar () {
   const termino = normalizar(buscador.value.trim());
-  const lista = termino
+  let lista = termino
     ? carros.filter((c) => normalizar(`${c.name} ${c.serie || ''} ${c.version || ''}`).includes(termino))
     : [...carros];
+  if (tipoActivo) lista = lista.filter((c) => c.tipo === tipoActivo);
 
   // sort es estable: a igual precio se mantiene el orden del catálogo
   if (orden.value === 'asc') lista.sort((a, b) => precioDe(a) - precioDe(b));
@@ -213,6 +220,36 @@ function filtrar () {
   grilla.hidden = lista.length === 0;
   sinResultados.hidden = lista.length > 0;
 }
+
+/* ---------- Filtro por tipo ---------- */
+
+function pintarTipos () {
+  const cuenta = {};
+  for (const c of carros) cuenta[c.tipo] = (cuenta[c.tipo] || 0) + 1;
+  const lista = Object.keys(cuenta).sort((a, b) => {
+    const ia = ORDEN_TIPOS.indexOf(a), ib = ORDEN_TIPOS.indexOf(b);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+
+  tipos.textContent = '';
+  for (const [valor, texto] of [['', `Todos (${carros.length})`], ...lista.map((t) => [t, `${t} (${cuenta[t]})`])]) {
+    const boton = document.createElement('button');
+    boton.type = 'button';
+    boton.className = 'tipo';
+    boton.dataset.tipo = valor;
+    boton.textContent = texto;
+    boton.setAttribute('aria-pressed', String(valor === tipoActivo));
+    tipos.append(boton);
+  }
+}
+
+tipos.addEventListener('click', (evento) => {
+  const boton = evento.target.closest('.tipo');
+  if (!boton) return;
+  tipoActivo = boton.dataset.tipo;
+  tipos.querySelectorAll('.tipo').forEach((b) => b.setAttribute('aria-pressed', String(b === boton)));
+  filtrar();
+});
 
 /* ---------- Visor de foto ---------- */
 

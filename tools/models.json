@@ -52,9 +52,15 @@
   { "id": "mclaren-senna", "name": "McLaren Senna", "serie": "Fast & Furious", "version": "Premium", "qty": 1, "price": 40, "file": "WhatsApp Image 2026-09-16 at 3.09.49 PM (5).jpeg" },
   { "id": "optimus-prime", "name": "Optimus Prime", "serie": "Transformers", "version": "Track Fleet", "qty": 1, "price": 50, "file": "WhatsApp Image 2026-09-16 at 3.09.47 PM.jpeg", "rotate": 90 },
   { "id": "1941-willys", "name": "1941 Willys", "serie": "Salt Flat Racers", "version": "Silver Series", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.42 PM.jpeg" },
-  { "id": "volkswagen-baja-bug", "name": "Volkswagen \"Baja Bug\"", "serie": "57 Aniversario", "qty": 3, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.45 PM (1).jpeg", "rotate": 90 },
-  { "id": "d-muscle", "name": "D-Muscle", "serie": "57 Aniversario", "qty": 2, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.45 PM (3).jpeg", "rotate": 90 },
-  { "id": "73-jeep-j10", "name": "'73 Jeep J10", "serie": "57 Aniversario", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.46 PM (1).jpeg", "rotate": 90 },
-  { "id": "55-corvette", "name": "'55 Corvette", "serie": "57 Aniversario", "qty": 2, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.45 PM.jpeg", "rotate": 90 },
-  { "id": "muscle-and-blown", "name": "Muscle and Blown", "serie": "57 Aniversario", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.44 PM.jpeg", "rotate": 90 }
+  { "id": "volkswagen-baja-bug", "name": "Volkswagen \"Baja Bug\"", "serie": "57 Aniversario", "tipo": "57 Aniversario", "qty": 3, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.45 PM (1).jpeg", "rotate": 90 },
+  { "id": "d-muscle", "name": "D-Muscle", "serie": "57 Aniversario", "tipo": "57 Aniversario", "qty": 2, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.45 PM (3).jpeg", "rotate": 90 },
+  { "id": "73-jeep-j10", "name": "'73 Jeep J10", "serie": "57 Aniversario", "tipo": "57 Aniversario", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.46 PM (1).jpeg", "rotate": 90 },
+  { "id": "55-corvette", "name": "'55 Corvette", "serie": "57 Aniversario", "tipo": "57 Aniversario", "qty": 2, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.45 PM.jpeg", "rotate": 90 },
+  { "id": "muscle-and-blown", "name": "Muscle and Blown", "serie": "57 Aniversario", "tipo": "57 Aniversario", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-16 at 3.09.44 PM.jpeg", "rotate": 90 },
+  { "id": "x-blade-azul", "name": "X-Blade (azul)", "serie": "Moto", "version": "Moto", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-22 at 1.29.13 AM (1).jpeg" },
+  { "id": "x-blade-naranja", "name": "X-Blade (naranja)", "serie": "Moto", "version": "Moto", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-22 at 1.29.21 AM.jpeg" },
+  { "id": "rollin-thunder", "name": "Rollin' Thunder", "serie": "Moto", "version": "Moto", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-22 at 1.29.13 AM.jpeg" },
+  { "id": "fat-ride", "name": "Fat Ride", "serie": "Moto", "version": "Moto", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-22 at 1.29.14 AM (1).jpeg" },
+  { "id": "twin-flame", "name": "Twin Flame", "serie": "Moto", "version": "Moto", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-22 at 1.29.14 AM (2).jpeg" },
+  { "id": "ferenzo", "name": "Ferenzo", "serie": "Moto", "version": "Moto", "qty": 1, "price": 20, "file": "WhatsApp Image 2026-09-22 at 1.29.14 AM.jpeg" }
 ]

@@ -18,14 +18,15 @@ const ROOT = path.resolve(TOOLS, '..')
 const IMG = path.join(ROOT, 'img')
 const ORIGINALES = path.join(ROOT, 'originales')
 const ORIGINALES_2 = path.join(ROOT, 'originales_2')
+const ORIGINALES_3 = path.join(ROOT, 'originales_3')
 
 const ALTO_MAX = 820
 const CALIDAD = 70
 const PRECIO_BASE = 17 // soles; un modelo puede traer su propio "price" en models.json
 
-// Busca la foto en la raiz del proyecto o, si ya se movio, en originales/ u originales_2/
+// Busca la foto en la raiz del proyecto o, si ya se movio, en originales/, originales_2/ u originales_3/
 function ubicar (archivo) {
-  for (const dir of [ROOT, ORIGINALES, ORIGINALES_2]) {
+  for (const dir of [ROOT, ORIGINALES, ORIGINALES_2, ORIGINALES_3]) {
     const p = path.join(dir, archivo)
     if (existsSync(p)) return p
   }
@@ -60,6 +61,8 @@ for (const modelo of modelos) {
     name: modelo.name,
     serie: modelo.serie,
     ...(modelo.version && { version: modelo.version }),
+    // tipo = para el filtro; si no se indica, sale de la version o es un basico
+    tipo: modelo.tipo ?? modelo.version ?? 'Básico',
     qty: modelo.qty,
     price: modelo.price ?? PRECIO_BASE,
     img: `img/${modelo.id}.webp`

@@ -3,6 +3,7 @@
     "id": "honda-s800-racing",
     "name": "Honda S800 Racing",
     "serie": "HW Race Day",
+    "tipo": "Básico",
     "qty": 2,
     "price": 17,
     "img": "img/honda-s800-racing.webp"
@@ -11,6 +12,7 @@
     "id": "64-chevy-chevelle-ss",
     "name": "'64 Chevy Chevelle SS",
     "serie": "Muscle Mania",
+    "tipo": "Básico",
     "qty": 2,
     "price": 17,
     "img": "img/64-chevy-chevelle-ss.webp"
@@ -19,6 +21,7 @@
     "id": "tesla-model-s-plaid",
     "name": "Tesla Model S Plaid",
     "serie": "Quarter Mile Heroes",
+    "tipo": "Básico",
     "qty": 2,
     "price": 17,
     "img": "img/tesla-model-s-plaid.webp"
@@ -27,6 +30,7 @@
     "id": "dessert-drifter",
     "name": "Dessert Drifter",
     "serie": "Fast Foodie",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/dessert-drifter.webp"
@@ -35,6 +39,7 @@
     "id": "king-kuda",
     "name": "King Kuda",
     "serie": "HW Art Cars",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/king-kuda.webp"
@@ -43,6 +48,7 @@
     "id": "mo-stash",
     "name": "Mo-Stash",
     "serie": "Experimotors",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/mo-stash.webp"
@@ -51,6 +57,7 @@
     "id": "small-bloc",
     "name": "Small Bloc",
     "serie": "Tooned",
+    "tipo": "Básico",
     "qty": 2,
     "price": 7,
     "img": "img/small-bloc.webp"
@@ -59,6 +66,7 @@
     "id": "17-ford-gt",
     "name": "'17 Ford GT",
     "serie": "HW Exotics",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/17-ford-gt.webp"
@@ -67,6 +75,7 @@
     "id": "94-toyota-supra",
     "name": "'94 Toyota Supra",
     "serie": "Tooned",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/94-toyota-supra.webp"
@@ -75,6 +84,7 @@
     "id": "porsche-911-carrera",
     "name": "Porsche 911 Carrera",
     "serie": "Experimotors",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/porsche-911-carrera.webp"
@@ -83,6 +93,7 @@
     "id": "mazda-rx-3",
     "name": "Mazda RX-3",
     "serie": "HW J-Imports",
+    "tipo": "Básico",
     "qty": 2,
     "price": 17,
     "img": "img/mazda-rx-3.webp"
@@ -91,6 +102,7 @@
     "id": "speed-bump",
     "name": "Speed Bump",
     "serie": "HW Art Cars",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/speed-bump.webp"
@@ -99,6 +111,7 @@
     "id": "hw-roll-cage",
     "name": "HW Roll Cage",
     "serie": "HW Dirt",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/hw-roll-cage.webp"
@@ -107,6 +120,7 @@
     "id": "lamborghini-huracan-lp620",
     "name": "Lamborghini Huracán LP 620-2 Super Trofeo",
     "serie": "HW Exotics",
+    "tipo": "Básico",
     "qty": 2,
     "price": 20,
     "img": "img/lamborghini-huracan-lp620.webp"
@@ -115,6 +129,7 @@
     "id": "aston-martin-db4gt",
     "name": "Aston Martin DB4GT High-Speed Edition",
     "serie": "Muscle Mania",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/aston-martin-db4gt.webp"
@@ -123,6 +138,7 @@
     "id": "porsche-911-rallye",
     "name": "Porsche 911 Rallye",
     "serie": "HW Turbo",
+    "tipo": "Básico",
     "qty": 2,
     "price": 17,
     "img": "img/porsche-911-rallye.webp"
@@ -131,6 +147,7 @@
     "id": "donut-drifter",
     "name": "Donut Drifter",
     "serie": "Fast Foodie",
+    "tipo": "Básico",
     "qty": 2,
     "price": 7,
     "img": "img/donut-drifter.webp"
@@ -139,6 +156,7 @@
     "id": "87-audi-quattro",
     "name": "'87 Audi Quattro",
     "serie": "HW Turbo",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/87-audi-quattro.webp"
@@ -147,6 +165,7 @@
     "id": "hover-storm",
     "name": "Hover Storm",
     "serie": "HW Dirt",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/hover-storm.webp"
@@ -155,6 +174,7 @@
     "id": "custom-72-chevy-luv",
     "name": "Custom '72 Chevy LUV",
     "serie": "HW Hot Trucks",
+    "tipo": "Básico",
     "qty": 2,
     "price": 17,
     "img": "img/custom-72-chevy-luv.webp"
@@ -163,6 +183,7 @@
     "id": "63-studebaker-champ",
     "name": "'63 Studebaker Champ",
     "serie": "HW Hot Trucks",
+    "tipo": "Básico",
     "qty": 2,
     "price": 17,
     "img": "img/63-studebaker-champ.webp"
@@ -171,6 +192,7 @@
     "id": "rink-racer",
     "name": "Rink Racer",
     "serie": "HW Ride-Ons",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/rink-racer.webp"
@@ -179,6 +201,7 @@
     "id": "bmw-m3-wagon",
     "name": "BMW M3 Wagon",
     "serie": "HW Modified",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/bmw-m3-wagon.webp"
@@ -187,6 +210,7 @@
     "id": "2016-ford-gt-race",
     "name": "2016 Ford GT Race",
     "serie": "Then and Now",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/2016-ford-gt-race.webp"
@@ -195,6 +219,7 @@
     "id": "toyota-supra",
     "name": "Toyota Supra",
     "serie": "HW: The '90s",
+    "tipo": "Básico",
     "qty": 1,
     "price": 25,
     "img": "img/toyota-supra.webp"
@@ -203,6 +228,7 @@
     "id": "mailed-it",
     "name": "Mailed It!",
     "serie": "HW Art Cars",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/mailed-it.webp"
@@ -211,6 +237,7 @@
     "id": "porsche-904-carrera-gts",
     "name": "Porsche 904 Carrera GTS",
     "serie": "HW Exotics",
+    "tipo": "Básico",
     "qty": 2,
     "price": 17,
     "img": "img/porsche-904-carrera-gts.webp"
@@ -219,6 +246,7 @@
     "id": "heavy-hitcher",
     "name": "Heavy Hitcher",
     "serie": "HW Metro",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/heavy-hitcher.webp"
@@ -227,6 +255,7 @@
     "id": "70-dodge-charger",
     "name": "'70 Dodge Charger",
     "serie": "Tooned",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/70-dodge-charger.webp"
@@ -235,6 +264,7 @@
     "id": "mclaren-p1",
     "name": "McLaren P1",
     "serie": "Quarter Mile Heroes",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/mclaren-p1.webp"
@@ -243,6 +273,7 @@
     "id": "dodge-viper-srt10-acr",
     "name": "Dodge Viper SRT10 ACR",
     "serie": "HW Exotics",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/dodge-viper-srt10-acr.webp"
@@ -251,6 +282,7 @@
     "id": "69-mercury-cougar",
     "name": "'69 Mercury Cougar Eliminator",
     "serie": "Muscle Mania",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/69-mercury-cougar.webp"
@@ -259,6 +291,7 @@
     "id": "95-mazda-rx-7",
     "name": "'95 Mazda RX-7",
     "serie": "HW J-Imports",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/95-mazda-rx-7.webp"
@@ -267,6 +300,7 @@
     "id": "gordon-murray-t50s",
     "name": "Gordon Murray Automotive T.50s",
     "serie": "HW Exotics",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/gordon-murray-t50s.webp"
@@ -275,6 +309,7 @@
     "id": "ground-fx",
     "name": "Ground FX",
     "serie": "Salt Flat Racers",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/ground-fx.webp"
@@ -283,6 +318,7 @@
     "id": "1932-ford",
     "name": "1932 Ford",
     "serie": "Salt Flat Racers",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/1932-ford.webp"
@@ -291,6 +327,7 @@
     "id": "hw-4-trac",
     "name": "HW-4-Trac",
     "serie": "HW Race Day",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/hw-4-trac.webp"
@@ -299,6 +336,7 @@
     "id": "silverado-ev-rst",
     "name": "Silverado EV RST",
     "serie": "HW Green Speed",
+    "tipo": "Básico",
     "qty": 1,
     "price": 17,
     "img": "img/silverado-ev-rst.webp"
@@ -307,6 +345,7 @@
     "id": "time-attaxi",
     "name": "Time Attaxi",
     "serie": "Edición especial",
+    "tipo": "Básico",
     "qty": 1,
     "price": 7,
     "img": "img/time-attaxi.webp"
@@ -316,6 +355,7 @@
     "name": "Lotus Esprit S1",
     "serie": "Pop Culture · 007",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/lotus-esprit-s1.webp"
@@ -325,6 +365,7 @@
     "name": "Aston Martin Vanquish",
     "serie": "Pop Culture · 007",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/aston-martin-vanquish.webp"
@@ -334,6 +375,7 @@
     "name": "K.I.T.T.",
     "serie": "Pop Culture · Knight Rider",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/kitt.webp"
@@ -343,6 +385,7 @@
     "name": "1968 Mazda Cosmo Sport",
     "serie": "Pop Culture · Jay Leno's Garage",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/1968-mazda-cosmo-sport.webp"
@@ -352,6 +395,7 @@
     "name": "Kool Kombi",
     "serie": "Pop Culture · Mattel 80",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/kool-kombi.webp"
@@ -361,6 +405,7 @@
     "name": "Ghost Rider Charger",
     "serie": "Pop Culture · Marvel",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/ghost-rider-charger.webp"
@@ -370,6 +415,7 @@
     "name": "Plumber Van",
     "serie": "Pop Culture · Super Mario Bros.",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/plumber-van.webp"
@@ -379,6 +425,7 @@
     "name": "Hiway Hauler",
     "serie": "Pop Culture · The Beatles",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/hiway-hauler-beatles.webp"
@@ -388,6 +435,7 @@
     "name": "1970 Chevelle SS",
     "serie": "Fast & Furious",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/1970-chevelle-ss.webp"
@@ -397,6 +445,7 @@
     "name": "2003 Dodge Viper SRT10",
     "serie": "Fast & Furious",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/2003-dodge-viper-srt10.webp"
@@ -406,6 +455,7 @@
     "name": "Land Rover Defender 110",
     "serie": "Fast & Furious",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/land-rover-defender-110.webp"
@@ -415,6 +465,7 @@
     "name": "McLaren Senna",
     "serie": "Fast & Furious",
     "version": "Premium",
+    "tipo": "Premium",
     "qty": 1,
     "price": 40,
     "img": "img/mclaren-senna.webp"
@@ -424,6 +475,7 @@
     "name": "Optimus Prime",
     "serie": "Transformers",
     "version": "Track Fleet",
+    "tipo": "Track Fleet",
     "qty": 1,
     "price": 50,
     "img": "img/optimus-prime.webp"
@@ -433,6 +485,7 @@
     "name": "1941 Willys",
     "serie": "Salt Flat Racers",
     "version": "Silver Series",
+    "tipo": "Silver Series",
     "qty": 1,
     "price": 20,
     "img": "img/1941-willys.webp"
@@ -441,6 +494,7 @@
     "id": "volkswagen-baja-bug",
     "name": "Volkswagen \"Baja Bug\"",
     "serie": "57 Aniversario",
+    "tipo": "57 Aniversario",
     "qty": 3,
     "price": 20,
     "img": "img/volkswagen-baja-bug.webp"
@@ -449,6 +503,7 @@
     "id": "d-muscle",
     "name": "D-Muscle",
     "serie": "57 Aniversario",
+    "tipo": "57 Aniversario",
     "qty": 2,
     "price": 20,
     "img": "img/d-muscle.webp"
@@ -457,6 +512,7 @@
     "id": "73-jeep-j10",
     "name": "'73 Jeep J10",
     "serie": "57 Aniversario",
+    "tipo": "57 Aniversario",
     "qty": 1,
     "price": 20,
     "img": "img/73-jeep-j10.webp"
@@ -465,6 +521,7 @@
     "id": "55-corvette",
     "name": "'55 Corvette",
     "serie": "57 Aniversario",
+    "tipo": "57 Aniversario",
     "qty": 2,
     "price": 20,
     "img": "img/55-corvette.webp"
@@ -473,8 +530,69 @@
     "id": "muscle-and-blown",
     "name": "Muscle and Blown",
     "serie": "57 Aniversario",
+    "tipo": "57 Aniversario",
     "qty": 1,
     "price": 20,
     "img": "img/muscle-and-blown.webp"
+  },
+  {
+    "id": "x-blade-azul",
+    "name": "X-Blade (azul)",
+    "serie": "Moto",
+    "version": "Moto",
+    "tipo": "Moto",
+    "qty": 1,
+    "price": 20,
+    "img": "img/x-blade-azul.webp"
+  },
+  {
+    "id": "x-blade-naranja",
+    "name": "X-Blade (naranja)",
+    "serie": "Moto",
+    "version": "Moto",
+    "tipo": "Moto",
+    "qty": 1,
+    "price": 20,
+    "img": "img/x-blade-naranja.webp"
+  },
+  {
+    "id": "rollin-thunder",
+    "name": "Rollin' Thunder",
+    "serie": "Moto",
+    "version": "Moto",
+    "tipo": "Moto",
+    "qty": 1,
+    "price": 20,
+    "img": "img/rollin-thunder.webp"
+  },
+  {
+    "id": "fat-ride",
+    "name": "Fat Ride",
+    "serie": "Moto",
+    "version": "Moto",
+    "tipo": "Moto",
+    "qty": 1,
+    "price": 20,
+    "img": "img/fat-ride.webp"
+  },
+  {
+    "id": "twin-flame",
+    "name": "Twin Flame",
+    "serie": "Moto",
+    "version": "Moto",
+    "tipo": "Moto",
+    "qty": 1,
+    "price": 20,
+    "img": "img/twin-flame.webp"
+  },
+  {
+    "id": "ferenzo",
+    "name": "Ferenzo",
+    "serie": "Moto",
+    "version": "Moto",
+    "tipo": "Moto",
+    "qty": 1,
+    "price": 20,
+    "img": "img/ferenzo.webp"
   }
 ]
