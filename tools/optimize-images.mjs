@@ -22,7 +22,7 @@ const ORIGINALES_3 = path.join(ROOT, 'originales_3')
 
 const ALTO_MAX = 820
 const CALIDAD = 70
-const PRECIO_BASE = 17 // soles; un modelo puede traer su propio "price" en models.json
+const PRECIO_BASE = 15 // soles; un modelo puede traer su propio "price" en models.json
 
 // Busca la foto en la raiz del proyecto o, si ya se movio, en originales/, originales_2/ u originales_3/
 function ubicar (archivo) {

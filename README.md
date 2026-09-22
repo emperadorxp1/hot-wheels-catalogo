@@ -3,7 +3,7 @@
 Landing estática para mostrar el stock de Hot Wheels, dejar que el cliente elija los que quiere
 y enviar la reserva por WhatsApp. Sin backend, sin build: Vercel la publica tal cual.
 
-- Precio normal: **S/ 17** por carrito (un modelo puede tener el suyo: la Toyota Supra de HW: The '90s está a S/ 25)
+- Precio normal: **S/ 15** por carrito (un modelo puede tener el suyo: la Toyota Supra de HW: The '90s está a S/ 25)
 - Recojo: **Solari Plaza 1079**
 - WhatsApp de reservas: **51959808052**
 
@@ -27,7 +27,7 @@ Están en las primeras líneas de `app.js`:
 
 ```js
 const WHATSAPP = '51959808052';
-const PRECIO = 17;
+const PRECIO = 15;
 const DIRECCION = 'Solari Plaza 1079';
 ```
 
@@ -44,7 +44,7 @@ const DIRECCION = 'Solari Plaza 1079';
    ```
 
    - `qty`: cuántas unidades tienes de ese modelo (si es 2 o más, la tarjeta muestra "2 disponibles").
-   - `price`: opcional. Sin esta clave el modelo cuesta S/ 17; con `"price": 25` cuesta 25 y el total
+   - `price`: opcional. Sin esta clave el modelo cuesta S/ 15; con `"price": 25` cuesta 25 y el total
      y el mensaje de WhatsApp lo suman correcto.
    - `version`: opcional. "Premium", "Track Fleet", "Silver Series"… Se muestra como etiqueta amarilla en la
      foto y también sirve para buscar (escribir "premium" filtra esos modelos). Precios de referencia:

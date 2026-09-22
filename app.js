@@ -1,7 +1,7 @@
 /* Catálogo Hot Wheels — landing para separar carritos por WhatsApp.
    Para cambiar el número, el precio o la dirección, edita solo estas tres líneas. */
 const WHATSAPP = '51959808052';   // con código de país, sin + ni espacios
-const PRECIO = 17;                // precio normal; un modelo puede traer su propio "price" en cars.json
+const PRECIO = 15;                // precio normal; un modelo puede traer su propio "price" en cars.json
 const DIRECCION = 'Solari Plaza 1079';
 
 const precioDe = (carro) => carro.price ?? PRECIO;
